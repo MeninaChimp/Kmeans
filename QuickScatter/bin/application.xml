@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="Scatter" class="meninaChimp.Share.KMeans.JfreeChartScatter"></bean>
+	<bean id="KMeans" class="meninaChimp.Share.KMeans.KMeans">
+			<constructor-arg value="3" type="int"/>
+	</bean>
+</beans>
